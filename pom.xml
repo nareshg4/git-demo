@@ -3,7 +3,7 @@
   <groupId>com.sonatype.blog</groupId>
   <artifactId>git-demo</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>git-demo</name>
   <url>http://maven.apache.org</url>
   
@@ -20,7 +20,7 @@
 	<connection>scm:git:ssh://git@github.com/faizurrahmann/git-demo.git</connection>
 	<url>scm:git:ssh://git@github.com/faizurrahmann/git-demo.git</url>
 	<developerConnection>scm:git:ssh://git@github.com/faizurrahmann/git-demo.git</developerConnection>
-    <tag>git-demo-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   
   <build>
