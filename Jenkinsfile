@@ -2,4 +2,8 @@
     standardPipeline {
         projectName = "ContinuousDelivery"
         serverDomain = "CD Server Domain"
+	stage('PrintMessage'){
+		bat "echo 'CD is working fine'"
+	}
+
     }
